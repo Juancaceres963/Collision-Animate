@@ -19,7 +19,7 @@ class Explosion {
         this.timer = 0;
         this.angel = Math.random() * 6.2;
         this.sound = new Audio();
-        this.sound.src = 'sounds/fireimpact.wav'
+        this.sound.src = 'soundsCollision/fireimpact.wav'
     }
     update(){
         if (this.frame === 0) this.sound.play();
